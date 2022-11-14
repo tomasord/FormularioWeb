@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 nov 2022, 1:07:27
+    Author     : Tomas
+*/
+html,body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imagenes/fondo.jpg"); 
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+nav{
+    display: flex;
+    height: 80px;
+}
+.logo{
+    display: inline-flex;
+    width: 167px;
+    height: 65px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    align-items: center;
+    position: absolute;
+    border-radius: 4px;
+}
+
+
+.titulo{
+font-family: 'verdana';
+font-style: normal;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+text-align: center;
+padding: 0%;
+margin-top: 0px;
+}
+.formularios{
+    width:  300px;
+    background-color: #2430;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-sizing: border-box;
+}
+
+.form{
+width: 100%;
+background-color:rgba(245, 245, 245, 0.7);
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 16px;
+border: 1px solid #2a2b2c;
+font-family: 'calibri';
+font-size: 18px;
+text-align: center;
+}
+.boton{
+    width:100%;
+    background-color: rgba(89, 32, 130, 0.7);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size:16px ;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.enviado{
+font-family: 'verdana';
+font-style: normal;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+text-align: center;
+padding: 0%;
+margin-top: 100px;
+margin-left: 50%;
+}
+.boton2{
+    width:100%;
+    background-color: rgba(89, 32, 130, 0.7);
+    padding: 10px;
+    color: white;
+    font-size:16px ;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    text-decoration: none;
+}
+.check_logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+}
+
+
